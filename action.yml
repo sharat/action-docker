@@ -1,0 +1,11 @@
+name: By pass command to specific docker image
+description: By pass command to specific docker image. This is used with sharat/action-android-build to resolve docker login issue with private repos
+author: Sarath C (github/sharat)
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: zap
+  color: 'green'
